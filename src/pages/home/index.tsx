@@ -1,20 +1,34 @@
-import GithubLogo from "../../assets/icons/github-logo.svg?react"
 import "./styles.scss"
+import Spline from "@splinetool/react-spline"
+import GithubLogo from "../../assets/icons/github-logo.svg?react"
 
 const HomePage: React.FC = () => {
   return (
     <div className="home-page">
-      {/* <div className="header">
-        <button>
-          <GithubLogo />
-          Github
-        </button>
-      </div> */}
-
+      <header>
+        <a href="https://github.com/Ali-Oliaee/404-Templates" target="_blank">
+          <GithubLogo
+            style={{
+              margin: 24,
+              height: 40,
+              width: 40,
+            }}
+          />
+        </a>
+      </header>
+      <Spline
+        className="model"
+        scene="https://prod.spline.design/mm9YnQNtqyXhPijJ/scene.splinecode"
+      />
       <div className="content">
         <h1 className="title">404 Templates</h1>
         <h3 className="subtitle">Free And OpenSource</h3>
-        <h6 className="description">feel free to use</h6>
+        <button className="learn-more">
+          <span className="circle" aria-hidden="true">
+            <span className="icon arrow"></span>
+          </span>
+          <span className="button-text">Learn More</span>
+        </button>
       </div>
     </div>
   )
