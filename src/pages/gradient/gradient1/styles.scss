@@ -1,0 +1,241 @@
+body {
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f5f5;
+
+    p::selection,
+    h1::selection,
+    h2::selection,
+    a::selection {
+        background-color: #fbebee;
+    }
+    .circle {
+        background: linear-gradient(to left, #f5abab, #f170b7);
+    }
+    .circle-header {
+        text-shadow: 5px 5px #e978a8;
+    }
+    .btn-pink {
+        color: #e68eb9;
+        border: 1px solid lighten(#e68eb9, 10%);
+        &:hover {
+            color: #fff;
+            border: 1px solid transparent;
+            &:before {
+                background: linear-gradient(to left, #f5abab, #f170b7);
+            }
+        }
+    }
+
+    .info-header {
+        color: #f989a6;
+    }
+    .info-text {
+        color: lighten(#e68eb9, 5%);
+    }
+    .footer-decor {
+        border-bottom: 1px solid lighten(#e68eb9, 10%);
+    }
+
+    .copyright {
+        color: lighten(#e68eb9, 5%);
+    }
+    p.copyright a {
+        color: lighten(#e68eb9, 5%);
+    }
+
+    p.copyright a:hover {
+        color: lighten(#e68eb9, 10%);
+    }
+}
+
+.preamble {
+    margin-top: 50px;
+
+    @media (max-width: 720px) {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+.content {
+    padding-top: 120px;
+    width: 720px;
+    margin: 0 auto;
+
+    @media (max-width: 720px) {
+        width: 90%;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .circle {
+        width: 304px;
+        height: 304px;
+        text-align: center;
+        color: #fff;
+        border-radius: 50%;
+        float: left;
+        shape-outside: circle() margin-box;
+        margin: 36px;
+
+        @media (max-width: 720px) {
+            width: 250px;
+            height: 250px;
+            float: none;
+            margin: auto;
+        }
+        .circle-header {
+            font-family: "Roboto Slab", serif;
+            color: #fff;
+            margin-top: 120px;
+            font-size: 90px;
+            line-height: 12px;
+            letter-spacing: 4px;
+
+            @media (max-width: 720px) {
+                padding-top: 100px;
+                margin-top: 20px;
+                font-size: 82px;
+                line-height: 10px;
+            }
+        }
+        .circle-text {
+            line-height: 0;
+            font-size: 14px;
+            font-weight: 100;
+            letter-spacing: 3px;
+        }
+    }
+}
+
+.info-header {
+    font-size: 38px;
+    font-family: "Roboto", sans-serif;
+
+    @media (max-width: 720px) {
+        clear: both;
+        font-size: 34px;
+    }
+}
+
+.info-text {
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Open Sans", sans-serif;
+
+    @media (max-width: 720px) {
+        font-size: 12px;
+    }
+}
+
+.footer-decor {
+    padding-top: 40px;
+
+    @media (max-width: 720px) {
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+.footer {
+    width: 720px;
+    margin: 0 auto;
+    text-align: center;
+
+    @media (max-width: 720px) {
+        width: 90%;
+    }
+}
+
+.copyright {
+    font-size: 11px;
+    word-wrap: break-word;
+    font-family: "Open Sans", sans-serif;
+    color: lighten(#333, 50%);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    @media (max-width: 720px) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 9px;
+    }
+}
+
+p.copyright a {
+    text-decoration: none;
+    cursor: pointer;
+    color: lighten(#333, 50%);
+}
+
+p.copyright a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: lighten(#333, 40%);
+}
+
+.button-list {
+    margin-top: 40px;
+    text-decoration: none;
+
+    @media (max-width: 720px) {
+        margin-top: 30px;
+    }
+}
+
+ul.button-list {
+    padding-left: 0;
+}
+
+.button-list li {
+    display: inline-block;
+    list-style: none;
+    font-size: 13px;
+    font-size: 1.3em;
+    padding-right: 20px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+
+    @media (max-width: 720px) {
+        padding-right: 10px;
+    }
+}
+
+.btn-pink {
+    background-size: 100%;
+    text-decoration: none;
+    border-radius: 1.6rem;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    position: relative;
+    z-index: 100;
+
+    @media (max-width: 720px) {
+        padding: 0.8rem 1.2rem;
+        font-size: 12px;
+    }
+
+    &:before {
+        border-radius: inherit;
+        transition: opacity 0.4s ease-out;
+        content: "";
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+        z-index: -100;
+    }
+
+    &:hover {
+        &:before {
+            opacity: 1;
+        }
+    }
+}

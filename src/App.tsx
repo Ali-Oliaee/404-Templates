@@ -1,7 +1,7 @@
-import { HomePage } from "./pages"
+import { Gradient1, HomePage } from "./pages"
 
 function App() {
-  return <HomePage />
+  return <Gradient1 />
 }
 
 export default App
