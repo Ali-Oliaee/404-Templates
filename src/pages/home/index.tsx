@@ -5,17 +5,13 @@ import GithubLogo from "../../assets/icons/github-logo.svg?react"
 const HomePage: React.FC = () => {
   return (
     <div className="home-page">
-      <header>
-        <a href="https://github.com/Ali-Oliaee/404-Templates" target="_blank">
-          <GithubLogo
-            style={{
-              margin: 24,
-              height: 40,
-              width: 40,
-            }}
-          />
-        </a>
-      </header>
+      <a
+        href="https://github.com/Ali-Oliaee/404-Templates"
+        className="github-link"
+        target="_blank"
+      >
+        <GithubLogo className="github-logo" />
+      </a>
       <Spline
         className="model"
         scene="https://prod.spline.design/mm9YnQNtqyXhPijJ/scene.splinecode"
