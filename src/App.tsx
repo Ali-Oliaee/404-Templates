@@ -1,4 +1,4 @@
-import { Gradient1, HomePage } from "./pages"
+import { Gradient1 } from "@pages"
 
 function App() {
   return <Gradient1 />

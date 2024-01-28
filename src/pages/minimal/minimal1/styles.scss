@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;400&display=swap");
+
+.minimal-1-page {
+    width: 100vw;
+    height: 100vh;
+    background: #0a0b16;
+    background-image: url("./background.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .github-link {
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: 0.5;
+
+        .github-logo {
+            margin: 24px;
+            height: 40px;
+            width: 40px;
+        }
+    }
+
+    .planet-1 {
+        position: absolute;
+        left: 120px;
+        bottom: 420px;
+    }
+
+    .planet-2 {
+        position: absolute;
+        right: 220px;
+        bottom: 90px;
+    }
+
+    .planet-3 {
+        position: absolute;
+        opacity: 0.7;
+        width: 40px;
+        height: 40px;
+        right: 220px;
+        top: 90px;
+    }
+
+    .astronaut {
+        position: relative;
+        z-index: 99;
+        @media screen and (max-width: 600px) {
+            max-width: 350px;
+            max-height: 350px;
+        }
+    }
+
+    .content {
+        position: relative;
+        z-index: 99;
+        width: 100%;
+        text-align: center;
+        font-family: "Exo";
+        color: white;
+
+        h1 {
+            font-size: 3em;
+            font-weight: 400;
+        }
+
+        p {
+            font-size: 2em;
+            font-weight: 200;
+        }
+
+        .button-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 250px;
+            margin: 0 auto;
+
+            button {
+                border: 1px solid white;
+                border-radius: 4px;
+                background-color: transparent;
+                color: white;
+                font-weight: 100;
+                padding: 10px 24px;
+                cursor: pointer;
+            }
+        }
+    }
+    .author {
+        color: white;
+        margin-top: 20px;
+    }
+}
