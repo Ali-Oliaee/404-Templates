@@ -2,16 +2,9 @@
     transition: $property $duration $ease;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    min-width: 100vw;
-    background: #001021;
-}
-
 .home-page {
-    width: 100%;
+    background: #001021;
+    min-width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -19,12 +12,12 @@ body {
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
-        padding-bottom: 120px;
     }
 
     .github-link {
         position: absolute;
         top: 0;
+        right: 0;
 
         .github-logo {
             margin: 24px;
@@ -52,6 +45,8 @@ body {
         text-align: center;
 
         @media screen and (max-width: 768px) {
+            align-self: flex-end;
+            justify-self: flex-end;
             width: 90%;
         }
 
@@ -59,18 +54,14 @@ body {
             color: #0caadc;
             font-size: 3em;
             font-family: "Rubik Doodle Shadow";
+            margin-bottom: 20px;
         }
 
         .subtitle {
             color: #0caadc;
             font-size: 2em;
             font-family: "Rubik Doodle Shadow";
-        }
-
-        .description {
-            color: #0caadc;
-            font-size: 1.5em;
-            font-family: "Rubik Doodle Shadow";
+            margin-bottom: 20px;
         }
 
         button {
