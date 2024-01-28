@@ -1,8 +1,8 @@
 import "./styles.scss"
 
-const Gredient1: React.FC = () => {
+const Gradient1: React.FC = () => {
   return (
-    <>
+    <div className="gradient-1-page">
       <div className="content">
         <div className="circle">
           <h1 className="circle-header">404</h1>
@@ -42,8 +42,8 @@ const Gredient1: React.FC = () => {
           <a href="https://hannaolsson.com">Hanna Olsson </a>
         </p>
       </div>
-    </>
+    </div>
   )
 }
 
-export default Gredient1
+export default Gradient1
