@@ -1,7 +1,7 @@
-import { Minimal3 } from "@pages"
+import { Gradient1 } from "@pages"
 
 function App() {
-  return <Minimal3 />
+  return <Gradient1 />
 }
 
 export default App

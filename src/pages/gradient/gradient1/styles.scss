@@ -5,6 +5,20 @@
     width: 100vw;
     height: 100vh;
 
+    .github-link {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        .github-logo {
+            background: #f5abab;
+            border-radius: 50%;
+            margin: 24px;
+            height: 40px;
+            width: 40px;
+        }
+    }
+
     p::selection,
     h1::selection,
     h2::selection,

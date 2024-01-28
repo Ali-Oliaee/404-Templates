@@ -1,5 +1,5 @@
-import GithubLogo from "@assets/icons/github-logo.svg?react"
-import Image from "./main.svg?react"
+import { ReactComponent as GithubLogo } from "@assets/icons/github-logo.svg"
+import { ReactComponent as Image } from "./main.svg"
 import "./styles.scss"
 
 const Minimal3: React.FC = () => {

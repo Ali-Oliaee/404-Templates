@@ -1,8 +1,16 @@
+import { ReactComponent as GithubLogo } from "@assets/icons/github-logo.svg"
 import "./styles.scss"
 
 const Gradient1: React.FC = () => {
   return (
     <div className="gradient-1-page">
+      <a
+        href="https://github.com/Ali-Oliaee/404-Templates"
+        className="github-link"
+        target="_blank"
+      >
+        <GithubLogo className="github-logo" />
+      </a>
       <div className="content">
         <div className="circle">
           <h1 className="circle-header">404</h1>
