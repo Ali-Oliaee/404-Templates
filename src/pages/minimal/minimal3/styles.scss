@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+.minimal-3-page {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #ffdbe1;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+
+    .github-link {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 50%;
+        z-index: 99;
+        margin: 24px;
+        height: 40px;
+
+        .github-logo {
+            background: rgb(255, 102, 102);
+            border-radius: 50%;
+            width: 40px;
+        }
+    }
+
+    .content {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-family: "Montserrat", sans-serif;
+
+        @media screen and (max-width: 920px) {
+            h1,
+            p {
+                margin: 0 auto;
+            }
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 5em;
+            font-weight: 700;
+            color: #384259;
+        }
+
+        .description {
+            font-size: 2em;
+            margin-top: 8px;
+            font-weight: bold;
+            color: #565f73;
+        }
+
+        .extra-description {
+            font-size: 1.6em;
+            margin-top: 8px;
+            font-weight: bold;
+            color: #858585;
+        }
+
+        button {
+            border-radius: 4px;
+            background: #f73859;
+            border: 0;
+            color: white;
+            font-weight: 100;
+            padding-block: 16px;
+            width: 100%;
+            font-weight: bold;
+            margin: 0 auto;
+            margin-top: 100px;
+            cursor: pointer;
+            font-size: 1.3em;
+        }
+    }
+    .author {
+        color: black;
+        margin-top: 20px;
+        font-size: 0.8em;
+    }
+}
