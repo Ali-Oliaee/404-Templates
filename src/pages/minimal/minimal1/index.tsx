@@ -1,6 +1,6 @@
 import AstronautImage from "./main.svg?react"
 import Planet from "./planet.svg?react"
-import GithubLogo from "../../../assets/icons/github-logo.svg?react"
+import GithubLogo from "@assets/icons/github-logo.svg?react"
 import "./styles.scss"
 
 const Minimal1: React.FC = () => {

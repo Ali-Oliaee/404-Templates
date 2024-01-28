@@ -1,4 +1,4 @@
-import GithubLogo from "../../../assets/icons/github-logo.svg?react"
+import GithubLogo from "@assets/icons/github-logo.svg?react"
 import Image from "./main.svg?react"
 import "./styles.scss"
 

@@ -1,6 +1,6 @@
 import "./styles.scss"
 import Spline from "@splinetool/react-spline"
-import GithubLogo from "../../assets/icons/github-logo.svg?react"
+import GithubLogo from "@assets/icons/github-logo.svg?react"
 
 const HomePage: React.FC = () => {
   return (
