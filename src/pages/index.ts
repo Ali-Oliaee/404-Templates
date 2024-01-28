@@ -8,3 +8,4 @@ export { Minimal3 } from "./minimal"
 
 export { Animated1 } from "./animated"
 export { Animated2 } from "./animated"
+export { Animated3 } from "./animated"
