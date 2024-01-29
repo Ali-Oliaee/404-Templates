@@ -47,7 +47,7 @@ const Animated4: React.FC = () => {
         </div>
       </section>
       <span className="author">
-        designed by{" "}
+        &copy; designed by{" "}
         <a target="_blank" href="https://codepen.io/uiswarup">
           Swarup
         </a>

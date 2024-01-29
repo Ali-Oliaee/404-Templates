@@ -2,12 +2,13 @@ export { default as HomePage } from "./home"
 
 export { Gradient1 } from "./gradient"
 
-export { Minimal1 } from "./minimal"
-export { Minimal2 } from "./minimal"
-export { Minimal3 } from "./minimal"
+export { Minimal1, Minimal2, Minimal3 } from "./minimal"
 
-export { Animated1 } from "./animated"
-export { Animated2 } from "./animated"
-export { Animated3 } from "./animated"
-export { Animated4 } from "./animated"
-export { Animated5 } from "./animated"
+export {
+  Animated1,
+  Animated2,
+  Animated3,
+  Animated4,
+  Animated5,
+  Animated6,
+} from "./animated"

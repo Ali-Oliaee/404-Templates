@@ -23,7 +23,7 @@ const Animated2: React.FC = () => {
           </a>
         </div>
         <span className="author">
-          designed by{" "}
+          &copy; designed by{" "}
           <a target="_blank" href="https://codepen.io/affectionatelettuce">
             Jen
           </a>

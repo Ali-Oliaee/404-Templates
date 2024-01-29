@@ -28,7 +28,7 @@ const Animated1: React.FC = () => {
         <a href="#">Trust & Safety</a>
         <a href="#">Sitemap</a>
         <span className="author">
-          designed by{" "}
+          &copy; designed by{" "}
           <a target="_blank" href="https://www.airbnb.com/404">
             Airbnb
           </a>

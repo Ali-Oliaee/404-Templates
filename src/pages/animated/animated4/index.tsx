@@ -103,7 +103,7 @@ const Animated4: React.FC = () => {
         </article>
       </main>
       <span className="author">
-        designed by{" "}
+        &copy; designed by{" "}
         <a target="_blank" href="https://codepen.io/remid">
           Rémi
         </a>

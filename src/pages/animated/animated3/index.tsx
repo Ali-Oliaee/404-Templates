@@ -71,7 +71,7 @@ const Animated3: React.FC = () => {
         </div>
       </section>
       <span className="author">
-        designed by{" "}
+        &copy; designed by{" "}
         <a target="_blank" href="https://codepen.io/rafaelavlucas">
           Rafaela
         </a>

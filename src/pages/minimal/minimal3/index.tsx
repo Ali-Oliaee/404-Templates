@@ -19,8 +19,8 @@ const Minimal3: React.FC = () => {
         <p className="extra-description">page is not found plz go back</p>
         <button>Plz Go Back</button>
         <span className="author">
-          designed by{" "}
-          <a target="_blank" href="https://www.figma.com/@techdesign">
+          &copy; designed by{" "}
+          <a target="_blank" href="https://www.figma.com/@tech&copy; design">
             tech.design
           </a>
         </span>
