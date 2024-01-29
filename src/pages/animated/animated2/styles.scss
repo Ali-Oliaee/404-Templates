@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
+
+.animated-2-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+    .github-link {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 50%;
+        z-index: 99;
+        margin: 24px;
+        height: 40px;
+
+        .github-logo {
+            background: grey;
+            border-radius: 50%;
+            width: 40px;
+        }
+    }
+
+    .page_404 {
+        padding: 40px 0;
+        background: #fff;
+        font-family: "Arvo", serif;
+        width: 100%;
+        text-align: center;
+    }
+
+    .page_404 img {
+        width: 100%;
+    }
+
+    .four_zero_four_bg {
+        background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .four_zero_four_bg h1 {
+        font-size: 80px;
+        font-weight: 400;
+    }
+
+    .content_box_404 h3 {
+        font-weight: 400;
+        font-size: 2em;
+    }
+    .content_box_404 p {
+        margin-block: 10px;
+    }
+
+    .link_404 {
+        color: #fff !important;
+        padding: 10px 20px;
+        background: #39ac31;
+        margin: 20px 0;
+        display: inline-block;
+    }
+    .content_box_404 {
+        margin-top: -50px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}

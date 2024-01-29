@@ -1,0 +1,6 @@
+export { default as Animated1 } from "./animated1"
+export { default as Animated2 } from "./animated2"
+export { default as Animated3 } from "./animated3"
+export { default as Animated4 } from "./animated4"
+export { default as Animated5 } from "./animated5"
+export { default as Animated6 } from "./animated6"

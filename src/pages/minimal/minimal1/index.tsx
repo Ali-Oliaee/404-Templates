@@ -26,7 +26,7 @@ const Minimal1: React.FC = () => {
         </div>
       </div>
       <span className="author">
-        designed by{" "}
+        &copy; designed by{" "}
         <a target="_blank" href="https://www.figma.com/@seda">
           Seda
         </a>

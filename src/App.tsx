@@ -1,7 +1,7 @@
-import { Gradient1 } from "@pages"
+import { Animated3 } from "@pages"
 
 function App() {
-  return <Gradient1 />
+  return <Animated3 />
 }
 
 export default App
