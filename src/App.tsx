@@ -1,7 +1,7 @@
-import { Animated3 } from "@pages"
+import { Minimal4 } from "./pages"
 
 function App() {
-  return <Animated3 />
+  return <Minimal4 />
 }
 
 export default App

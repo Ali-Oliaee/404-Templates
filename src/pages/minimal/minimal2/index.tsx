@@ -18,7 +18,7 @@ const Minimal2: React.FC = () => {
         <button>BACK TO HOME</button>
         <span className="author">
           &copy; designed by{" "}
-          <a target="_blank" href="https://www.figma.com/@vj_&copy; designz">
+          <a target="_blank" href="https://www.figma.com/@vj_designz">
             Prabhatsinh
           </a>
         </span>

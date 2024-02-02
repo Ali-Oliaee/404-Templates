@@ -20,7 +20,7 @@ const Minimal3: React.FC = () => {
         <button>Plz Go Back</button>
         <span className="author">
           &copy; designed by{" "}
-          <a target="_blank" href="https://www.figma.com/@tech&copy; design">
+          <a target="_blank" href="https://www.figma.com/@tech.design">
             tech.design
           </a>
         </span>
